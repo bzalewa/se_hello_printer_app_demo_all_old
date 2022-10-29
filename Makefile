@@ -36,7 +36,7 @@ docker_stop:
 	docker stop $(SERVICE_NAME)-dev
 
 docker_start:
-	docker stoart $(SERVICE_NAME)-dev
+	docker start $(SERVICE_NAME)-dev
 
 docker_push: docker_build
 	@docker login --username $(USERNAME) --password
